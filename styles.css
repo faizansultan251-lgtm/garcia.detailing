@@ -280,6 +280,10 @@ a {
     display: block;
     margin-left: auto;
   }
+
+  .nav-logo-img {
+    height: 45px;
+  }
 }
 
 /* --- Hero Section --- */
@@ -442,6 +446,22 @@ a {
 @keyframes mouseScroll {
   0% { top: 6px; opacity: 1; }
   100% { top: 18px; opacity: 0; }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: auto;
+    min-height: 100vh;
+    padding: 120px 0 60px;
+  }
+  
+  .hero-trust {
+    margin-bottom: 2rem;
+  }
+  
+  .scroll-cue {
+    display: none; /* Hide on small screens to prevent overlap */
+  }
 }
 
 /* --- March Promotion V2 --- */
