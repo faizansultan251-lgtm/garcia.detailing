@@ -198,8 +198,9 @@ a {
 
 .navbar .logo {
   position: absolute;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
   z-index: 10;
 }
 
@@ -222,6 +223,8 @@ a {
   object-fit: contain;
   transition: transform 0.3s ease;
   display: block;
+  background-color: #000;
+  border-radius: 50%; /* Clip any square gray backgrounds to a circle */
 }
 
 .nav-logo-img:hover {
@@ -458,7 +461,7 @@ a {
   .hero {
     height: auto;
     min-height: 100vh;
-    padding: 160px 0 60px; /* Increased top padding to avoid logo overlap */
+    padding: 110px 0 60px; /* Reduced from 160px to tighten the gap */
   }
   
   .hero-trust {
