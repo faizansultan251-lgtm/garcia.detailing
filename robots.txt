@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://garciamobiledetail.com/sitemap.xml
